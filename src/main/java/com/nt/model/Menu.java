@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 @Entity
 public class Menu {
-
+	//JPA annotations
 	@Id
 	 @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
